@@ -2,8 +2,8 @@
 # Tie::Hash::RegexKeys package
 # Perl license
 #
-# $Id: RegexKeys.pm,v 1.2 2005/10/05 12:44:42 fabrice Exp $
-# $Revision: 1.2 $
+# $Id: RegexKeys.pm 1 2007-03-06 20:14:50Z root $
+# $Revision: 1 $
 #
 # Fabrice Dulaunoy <fabrice@dulaunoy.com>
 ###########################################################
@@ -60,7 +60,7 @@ use Attribute::Handlers autotie => { "__CALLER__::RegexKeys" => __PACKAGE__ };
 @EXPORT = qw();
 @EXPORT_OK =();
 
-$VERSION = sprintf "%d.%d", '$Revision: 1.2 $ ' =~ /(\d+)\.(\d+)/;
+$VERSION = 1.21;
 
 =head1 METHODS
 
